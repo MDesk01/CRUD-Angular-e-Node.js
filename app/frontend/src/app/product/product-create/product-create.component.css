@@ -1,0 +1,16 @@
+.btn-create{
+    background-color: rgb(30, 139, 30);
+    color: white;
+}
+.btn-create:hover{
+    background-color: white;
+    color: rgb(30, 139, 30);
+}
+.btn-cancel{
+    background-color:  #f44336;
+    color: white;
+}
+.btn-cancel:hover{
+    background-color: white;
+    color:  #f44336;
+}

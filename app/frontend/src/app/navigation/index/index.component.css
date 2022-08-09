@@ -1,0 +1,9 @@
+.header {
+    position: fixed;
+    z-index: 4;
+}
+
+.sidenav {
+    position: fixed;
+    z-index: 2;
+}
