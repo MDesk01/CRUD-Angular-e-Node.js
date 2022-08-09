@@ -1,5 +1,6 @@
 # CRUD Angular e Node.js
  Projeto de CRUD(Criação, Visualização, Alteração e Remoção) feito em Angular v.13 e Node.js
+ 
 ##Pré-requisitos para executar:
 1. instalar vscode
 2. instalar node.js e angular cli
