@@ -28,10 +28,10 @@ export class ProductCreateComponent implements OnInit {
       this.productService.showMessage('Produto Criado com sucesso!') //mensagem de sucesso
       this.router.navigate(['product-crud']) //retorna para a página product-crud, após a criação do produto
     })
-} //fim do método de criar produto
+  } //fim do método de criar produto
 
-cancel(): void{
-  this.router.navigate(['product-crud']) //botão de cancelar
-}
+  cancel(): void {
+    this.router.navigate(['product-crud']) //botão de cancelar
+  }
 
 }

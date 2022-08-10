@@ -24,15 +24,15 @@ export class ProductUpdateComponent implements OnInit {
   }
 
   //método de atualizar o produto
-  updateProduct():void{
-    this.productService.update(this.product).subscribe(() =>{
+  updateProduct(): void {
+    this.productService.update(this.product).subscribe(() => {
       this.productService.showMessage('Produto atualizado!');
       this.router.navigate(['product-crud']);
     });
   }
 
   //botão cancelar:
-  cancel():void{
+  cancel(): void {
     this.router.navigate(['product-crud'])
   }
 }
