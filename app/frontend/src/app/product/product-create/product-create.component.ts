@@ -31,7 +31,7 @@ export class ProductCreateComponent implements OnInit {
   } //fim do método de criar produto
 
   cancel(): void {
-    this.router.navigate(['product-crud']) //botão de cancelar
+    this.router.navigate(['product-crud']) //botão de cancelar - volta à tela product-crud.component.html
   }
 
 }
